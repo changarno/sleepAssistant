@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sleepbgrest"
+    android:scaleType = "centerCrop"
+    tools:context="com.example.mio.sleepassistant.SettingsActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sleepsetbase"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView6" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sleepsetonbutton"
+        android:layout_marginTop="202dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/sleepsetonbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sleepsetoffbutton"
+        android:layout_marginTop="21dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/sleepsetoffbutton"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sleepprofile"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/profileButton"
+        android:background="@drawable/sleepprofile" />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sleepfave"
+        android:layout_marginStart="21dp"
+        android:id="@+id/faveButton"
+        android:background="@drawable/sleepfave"
+        android:layout_alignTop="@+id/profileButton"
+        android:layout_toEndOf="@+id/profileButton" />
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sleepsettings"
+        android:layout_marginStart="21dp"
+        android:id="@+id/settingsButton"
+        android:background="@drawable/sleepsettings"
+        android:layout_alignTop="@+id/faveButton"
+        android:layout_toEndOf="@+id/faveButton" />
+
+</RelativeLayout>

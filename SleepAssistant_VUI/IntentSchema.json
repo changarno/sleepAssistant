@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Playlist",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "PlayAudio"
+    },
+    {
+      "slots": [
+        {
+          "name": "Playlist",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "ListAudio"
+    },
+    {
+      "intent": "LoopAudio"
+    },
+    {
+      "intent": "LoopAudioOff"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.LoopOnIntent"
+    },
+    {
+      "intent": "AMAZON.LoopOffIntent"
+    }
+  ]
+}

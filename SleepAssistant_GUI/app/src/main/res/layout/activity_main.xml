@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@drawable/sleepbg"
+    android:scaleType = "centerCrop"
+    tools:context="com.example.mio.sleepassistant.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sleepstartlogo"
+        android:id="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:elevation="0dp"
+        android:background="@drawable/sleepstartbutton"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+PlayAudio play {audio|Playlist}
+PlayAudio play {audio|Playlist} playlist
+PlayAudio play audio from {playlist|Playlist}
+ListAudio list {playlist|Playlist}
+ListAudio list audio from {playlist|Playlist}
+ListAudio list {recently added|Playlist}
+ListAudio list audio from {recently added|Playlist}
+LoopAudio loop audio on
+LoopAudioOff loop audio off
+AMAZON.HelpIntent what can I say
